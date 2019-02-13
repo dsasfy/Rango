@@ -12,7 +12,7 @@ def populate():
     # This might seem a little bit confusing, but it allows us to iterate
     # through each data structure, and add the data to our models.
 
-    python_cat = add_cat('Python', views=128, likes=64)
+   # python_cat = add_cat('Python', views=128, likes=64)
     python_pages = [
         {"title": "Official Python Tutorial",
             "url":"http://docs.python.org/2/tutorial/"},
@@ -21,7 +21,7 @@ def populate():
         {"title":"Learn Python in 10 Minutes",
             "url":"http://www.korokithakis.net/tutorials/python/"} ]
 
-    django_cat = add_cat("Django", views=64, likes=32)
+    #django_cat = add_cat("Django", views=64, likes=32)
     django_pages = [
         {"title":"Official Django Tutorial",
             "url":"https://docs.djangoproject.com/en/1.9/intro/tutorial01/"},
@@ -30,7 +30,7 @@ def populate():
         {"title":"How to Tango with Django",
             "url":"http://www.tangowithdjango.com/"} ]
 
-    frame_cat = add_cat("Other Frameworks", views=32, likes=16)
+    #frame_cat = add_cat("Other Frameworks", views=32, likes=16)
     other_pages = [
         {"title":"Bottle",
             "url":"http://bottlepy.org/docs/dev/"},
